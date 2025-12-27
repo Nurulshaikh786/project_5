@@ -1,0 +1,10 @@
+(node:11244) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Application has thrown an uncaught exception and is terminated:
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\xampp\htdocs\ms_admin\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (C:\xampp\htdocs\ms_admin\node_modules\mysql\lib\Connection.js:94:28)
+    at Socket.<anonymous> (C:\xampp\htdocs\ms_admin\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

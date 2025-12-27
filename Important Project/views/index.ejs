@@ -1,0 +1,37 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+    <%- include('common_head'); -%>
+<body class="cbp-spmenu-push">
+</br>
+</br>
+		<div >
+			<div class="main-page login-page">
+				<h2 class="title1">Messho Admin</h2>				
+				<div class="widget-shadow">
+					<div class="login-body">
+						<form action="/login" method="POST">
+							
+							<input type="email" class="user" name="email" placeholder="Enter Your Email" required="">
+							<input type="password" name="password" class="lock" placeholder="Password" required="">
+							<p style="color:red; text-align: center;"><%= title %></p>
+							<input type="submit" name="Sign In" value="Sign In">
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!--footer-->
+		<div >
+        </br>
+		   <p style="text-align: center;">&copy; 2023 Admin. All Rights Reserved</p></div>
+        <!--//footer-->
+
+</body>
+</html>
